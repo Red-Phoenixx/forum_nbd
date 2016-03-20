@@ -1,2 +1,3 @@
 # forum_nbd
-Forum de la guide Never Back Down
+
+Bienvenue le GitHub de Never Back Down, le projet actuel est la mise en oeuvre d'un forum afin que les membres puissent communiquer entre eux.
