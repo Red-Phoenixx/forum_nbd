@@ -1,0 +1,56 @@
+/* Eléments principaux */
+
+#formulaire {
+    margin-top: 100px;
+    padding: 10px;
+}
+
+@media all and (max-width: 1024px) {
+    #formulaire {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+}
+
+
+/* Titre */
+
+h2 {
+    text-align: center;
+    color: #760001;
+}
+
+
+/* Formulaire */
+
+form {
+    text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+    font-family: Constantia, Verdana, Arial, sans-serif;
+    width: 170px;
+    height: 15px;
+}
+
+input[type=submit] {
+    /* Modifier bouton "Connexion" */
+    width: 150px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
+#pseudo,
+#pass,
+#check_pseudo {
+    margin: 5px;
+}
+
+#submit {
+    margin: 10px;
+}
+
+a {
+    color: #760001;
+}

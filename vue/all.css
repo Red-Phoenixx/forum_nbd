@@ -1,0 +1,18 @@
+/* Eléments principaux */
+
+body {
+    background: url('img/background.png');
+    font-family: Constantia, Verdana, Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page {
+    width: 900px;
+    margin: auto;
+}
+
+@media all and (max-width: 1024px) {
+    #bloc_page {
+        width: auto;
+    }
+}
