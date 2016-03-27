@@ -26,7 +26,7 @@
                 <br />
                 <input type="submit" id="submit" value="Connexion" />
                 <br />
-                <a href="recup_password.php">Mot de passe oublié ?</a>
+                <a href="password_reset.php">Mot de passe oublié ?</a>
             </form>
         </div>
     </div>

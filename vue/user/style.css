@@ -15,7 +15,8 @@
 
 /* Titre */
 
-h2 {
+h2,
+p {
     text-align: center;
     color: #760001;
 }
@@ -43,7 +44,8 @@ input[type=submit] {
 
 #pseudo,
 #pass,
-#check_pseudo {
+#check_pseudo,
+#email {
     margin: 5px;
 }
 
