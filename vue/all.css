@@ -1,9 +1,11 @@
 /* Eléments principaux */
 
 body {
-    background: url('img/background.png');
+    background: #08283c;
+    background: url('img/background/2.33/background_2.33.jpg') center top no-repeat;
     font-family: Constantia, Verdana, Arial, sans-serif;
     color: #181818;
+    transition: all 1.3s ease;
 }
 
 #bloc_page {

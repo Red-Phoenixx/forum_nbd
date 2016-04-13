@@ -1,15 +1,24 @@
 /* Eléments principaux */
 
+body {
+    margin-top: 40vh;
+    /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+    /* tiré de la moitié de sa propre hauteur */
+}
+
 #formulaire {
-    margin-top: 100px;
+    color: #373737;
+    transition: all 1.3s ease;
+    width: 300px;
+    margin: auto;
     padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #9c9c9a;
 }
 
 @media all and (max-width: 1024px) {
-    #formulaire {
-        margin-left: 35%;
-        margin-right: 35%;
-    }
+    #formulaire {}
 }
 
 
@@ -18,7 +27,7 @@
 h2,
 p {
     text-align: center;
-    color: #760001;
+    color: #373737;
 }
 
 
@@ -28,31 +37,56 @@ form {
     text-align: center;
 }
 
+input {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    border: 1px solid #bcbdb8;
+    background-color: rgb(250, 255, 189);
+    box-shadow: none;
+}
+
 input[type=text],
 input[type=password] {
     font-family: Constantia, Verdana, Arial, sans-serif;
-    width: 170px;
-    height: 15px;
+    width: 60%;
+    height: 18px;
 }
 
 input[type=submit] {
     /* Modifier bouton "Connexion" */
-    width: 150px;
-    box-shadow: 1px 1px 1px black;
+    width: 75%;
+    height: 39px;
+    font-size: 1.2em;
     cursor: pointer;
+    text-shadow: 0 1px 1px #333;
+    transition: all 1.3s ease;
+    color: #fff;
+    font-family: "Lucida sans Unicode";
+    background-color: #97A800;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type=submit]:hover {
+    transition: all 0.3s ease;
+    background-color: #bfd500;
 }
 
 #pseudo,
 #pass,
 #check_pseudo,
 #email {
-    margin: 5px;
-}
-
-#submit {
     margin: 10px;
 }
 
 a {
-    color: #760001;
+    color: #9c9c9a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#check_pseudo {
+    margin-left: -10px;
 }

@@ -11,7 +11,10 @@
 <body>
     <div id="bloc_page">
         <div id="formulaire">
-            <h2>Connexion</h2>
+            <div id="titre">
+                <h2>Connexion</h2>
+                <hr />
+            </div>
             <form method="post">
                 <label for="pseudo">Pseudo</label>
                 <br />
@@ -24,7 +27,7 @@
                 <input type="checkbox" id="check_pseudo" name="check_pseudo" />
                 <label for="check_pseudo">Se souvenir de moi</label>
                 <br />
-                <input type="submit" id="submit" value="Connexion" />
+                <input type="submit" id="submit" value="Se connecter" />
                 <br />
                 <a href="password_reset.php">Mot de passe oublié ?</a>
             </form>
