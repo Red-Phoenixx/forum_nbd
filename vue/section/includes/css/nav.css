@@ -1,0 +1,17 @@
+/* Nav */
+
+nav {
+    border: 1px solid black;
+    margin-top: 510px;
+    background-color: #f4f3ee;
+    height: 50px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #848e02;
+}

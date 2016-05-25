@@ -1,0 +1,11 @@
+/* Header */
+
+header {
+    width: 900px;
+}
+
+header h1 {
+    color: #f3f2ed;
+    text-align: center;
+    font-family: "Segoe Print";
+}

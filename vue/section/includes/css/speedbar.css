@@ -1,0 +1,45 @@
+#speedbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 32px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#speedbar #embleme {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#speedbar span {
+    display: inline-block;
+    color: #b6b6b6;
+    line-height: 32px;
+}
+
+#speedbar #titre {
+    margin-left: 0%;
+}
+
+#speedbar #options {
+    display: inline-block;
+    margin-left: 60%;
+    height: 32px;
+}
+
+#speedbar #button_connexion {
+    padding-right: 0%;
+    background-color: #303030;
+    height: 32px;
+}
+
+#speedbar #button_inscription {
+    background-color: #303030;
+    height: 32px;
+}
+
+#speedbar #button_connexion #ico_log_off {
+    border: 1px solid grey;
+}

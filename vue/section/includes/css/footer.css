@@ -1,0 +1,40 @@
+/* Footer */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 69px;
+    color: #838383;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 10px;
+}
+
+footer #mini_embleme {
+    float: left;
+    height: 62px;
+    width: 62px;
+    margin-left: 15%;
+    margin-right: -30%;
+}
+
+footer #mini_embleme2 {
+    float: right;
+    height: 62px;
+    width: 62px;
+    margin-left: -30%;
+    margin-right: 15%;
+}
+
+footer copyright_footer {
+    width: 50%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #838383;
+}
+
+footer a:hover {
+    color: #fff;
+}

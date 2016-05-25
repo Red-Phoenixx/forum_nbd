@@ -11,5 +11,5 @@ global $resultat;
 if ($resultat['etat'] == "maintenance"){
     include_once('controleur/maintenance/index.php');
 }   else{
-    echo "Hello World !";
+    include_once('vue/section/accueil.php');
 }

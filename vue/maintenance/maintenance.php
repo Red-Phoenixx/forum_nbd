@@ -3,6 +3,7 @@
 
 <head>
     <title>Maitenance</title>
+    <meta name="description" content="Forum de la guilde Never Back Down présente sur le serveur Goultard dans Dofus." />
     <meta charset="utf-8" />
 </head>
 
