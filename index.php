@@ -4,7 +4,7 @@
 include_once('controleur/connexion_sql.php');
 
 include_once('modele/maintenance/maintenance.php');
-
+    
 // Redirection maintenance
 global $resultat;
 
