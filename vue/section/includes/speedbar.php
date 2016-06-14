@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 <div id="speedbar"><span id="titre">Version Alpha 0.1.0</span>
-=======
-<div id="speedbar">
-    <span id="titre">Never Back Down</span>
->>>>>>> 0e4256e62d0e7158929a6e3792807e0a71a4e8ef
     <div id="options">
         <span id="button_connexion"><a href="vue/user/auth.php">Connexion<img src="vue/img/user/speedbar_vign_off.png" alt="" id="ico_log_off"/></span></a> <span id="button_inscription"><a href="">Inscription</a></span>
     </div>
