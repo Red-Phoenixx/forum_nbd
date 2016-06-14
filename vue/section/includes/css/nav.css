@@ -3,7 +3,7 @@
 nav {
     text-align: center;
     margin-top: 32px;
-    border-top: 2px solid #96a702;
+    border-top: 3px solid #96a702;
     background-color: rgba(0, 0, 0, 0.8);
     height: 80px;
     width: 100%;
@@ -24,7 +24,11 @@ nav {
     color: #b4c10c;
 }
 
-#mini_embleme_speedbar {}
+#mini_embleme_speedbar {
+    position: relative;
+    z-index: 2;
+    margin-top: -31px;
+}
 
 #separation_vertical {
     margin-left: 5px;

@@ -1,7 +1,6 @@
-<div id="speedbar">
-    <span id="titre">Never Back Down</span>
+<div id="speedbar"><span id="titre">Version Alpha 0.1.0</span>
     <div id="options">
-        <span id="button_connexion"><a href="vue/user/auth.php">Connexion<img src="vue/img/user/speedbar_vign_off.png" alt="" id="ico_log_off"/></a></span> <span id="button_inscription">Inscription</span>
+        <span id="button_connexion"><a href="vue/user/auth.php">Connexion<img src="vue/img/user/speedbar_vign_off.png" alt="" id="ico_log_off"/></span></a> <span id="button_inscription"><a href="">Inscription</a></span>
     </div>
 </div>
 <nav>
