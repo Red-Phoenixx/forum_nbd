@@ -8,6 +8,7 @@
     padding-left: 80px;
     padding-right: 80px;
     z-index: 2;
+    font-family: "BebasNeue", sans-serif;
 }
 
 #speedbar #embleme {
@@ -22,6 +23,8 @@
 
 #speedbar #titre {
     width: 500px;
+    font-size: 18px;
+    letter-spacing: 0.7px;
 }
 
 #speedbar #options {
@@ -36,7 +39,8 @@
 #speedbar a {
     text-decoration: none;
     color: #b6b6b6;
-    font-size: 13px;
+    font-size: 15px;
+    letter-spacing: 0.7px;
 }
 
 #ico_log_off {
@@ -46,17 +50,25 @@
 }
 
 #speedbar #button_connexion {
-    margin-right: -2px;
-    background-color: #303030;
+    margin-right: 0px;
     height: 32px;
     padding-left: 13px;
 }
 
 #speedbar #button_inscription {
-    background-color: #303030;
     height: 32px;
     padding-left: 13px;
     padding-right: 13px;
+}
+
+#speedbar #button_connexion,
+#speedbar #button_inscription {
+    background-color: #212121;
+}
+
+#speedbar #button_connexion:hover,
+#speedbar #button_inscription:hover {
+    background-color: #303030;
 }
 
 #speedbar #button_connexion #ico_log_off {

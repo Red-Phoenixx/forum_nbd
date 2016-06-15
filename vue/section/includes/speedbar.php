@@ -1,6 +1,6 @@
 <div id="speedbar"><span id="titre">Version Alpha 0.1.0</span>
     <div id="options">
-        <span id="button_connexion"><a href="vue/user/auth.php">Connexion<img src="vue/img/user/speedbar_vign_off.png" alt="" id="ico_log_off"/></span></a> <span id="button_inscription"><a href="">Inscription</a></span>
+        <a href="vue/user/auth.php"><span id="button_connexion">Connexion<img src="vue/img/user/speedbar_vign_off.png" alt="" id="ico_log_off"/></span></a> <a href=""><span id="button_inscription">Inscription</span></a>
     </div>
 </div>
 <nav>
